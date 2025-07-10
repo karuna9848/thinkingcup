@@ -2,7 +2,7 @@
 
 <head>
 
-    <title> Aroma</title>
+    <title> The Thinking Cup </title>
 
 </head>
 <style>
@@ -20,7 +20,8 @@
 
     a:hover {
         font-size: 26px;
-        border: 1px solid rgb(13, 200, 217);
+        box-shadow: 0 0 10px #ad6a44;
+        border: 1px solid rgb(13, 217, 98);
 
     }
 
@@ -67,42 +68,40 @@
         justify-content: space-evenly;
     }
 
-    #fifth {
-        margin-top:0% ;
-        padding-top: 0%;
-        width: 100%;
-        height: 800px;
-        background-image: url("brownbg.jpg");
-        background-repeat: no-repeat;
-        background-size: cover;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-        row-gap: 50px;
-       
-    }
+     #fifth{
+            width: 100%;
+            height: 900px;
+            background-image: url("brownbg.jpg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            row-gap: 170px;
+        }
 
-    #fifth-child1 {
-               padding:15px;
-               border-radius: 15px;
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-    }
+        #fifth-child1{
+          
+            padding: 10px;
+            border-radius: 15px;
+              flex-direction: column;
+        }
 
-    #fifth-child2 {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        position: relative;
-        top: 60px;
-    }
+        #fifth-child2{
+            width: 95%;
+            border-radius: 15px;
+            
+            padding: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 10%;
+        }
 
     #sixth {
         width: 100%;
-        height: 600px;
+        height: 500px;
         background-image: url('istockphoto-1303583671-170667a.jpg');
        /* background-color: black;*/
         background-repeat: no-repeat;
@@ -112,14 +111,44 @@
         justify-content: center;
         
     }
+       #sev{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+ height:50px;
+
+    }
+    #eig {
+       display:flex;
+      
+       justify-content:space-between;
+       gap:5px;
+        height:600
+      
+        
+    }
+    #eig img{
+        margin-top: 90px;
+     flex:0 0 auto;
+   
+     width:100%;
+      height:150px;
+      display: block;
+    
+
+   
+    }
+    #sev1{
+        background-image: url("brownbg.jpg");
+    }
      #seven{
-        height:50%;
+          width:100%;
         display: flex;
        align-items: center;
         justify-content: space-around;
     }
      #eight {
-        background-color: rgb(236, 173, 101);
+    
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -150,19 +179,18 @@
     }
    
      #gallery2 {
-        margin:20px;
-       display: flex;
-           gap:10px;
-      /*     max-width:10%;*/              
-      justify-content: space-evenly;
-      position: relative;
-        top: 10px;
-        box-sizing: border-box;
-        overflow: hidden;
+       display:flex;
+       flex-wrap:wrap;
+       justify-content:space-between;
+       gap:5px;
+        height:300px;
     }
     #gallery2 img{
-       width:calc((100%-50px)/6);
-      height:auto;
+        margin-top: 90px;
+     flex:0 0 auto;
+     width:15.66%;
+     max-width:800px;
+      height:150px;
       display: block;
     }
     #footer {
@@ -255,8 +283,7 @@
             style="display: flex; flex-direction: column; align-items: center; justify-content: center;">
             <h1>The Coffee Herald</h1>
             <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-                dolore</p>
+            <p style="font-size:20px;">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore</p>
         </div>
 
         <div id="fifth-child2">
@@ -286,41 +313,77 @@
                 <a href="#">-Read More</a>
              </div>
         </div>
-        </div>
+    </div>
         <div id="sixth">
             <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/h1-single-img-1-250x226.png">
         </div>
 
-         <div id="seven">
+    <div id="seven">
         <div id="coffee-types"
             style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
              <h1 style="color:burlywood; font-size:70px;margin:0;padding:0">250</h1>
             <h3>Types of coffee</h3>
-            <p>We offer a wide range of coffee.</p>
+            <p style="font-size:15px";>We offer a wide range of coffee.</p>
         </div>
 
         <div id="bean-varities"
             style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
             <h1 style="color:burlywood; font-size:70px;margin:0;padding:0">123</h1>
             <h3>Types of coffee</h3>
-            <p>We offer a wide range of coffee.</p>
+            <p style="font-size:15px";>We offer a wide range of coffee.</p>
         </div>
 
         <div id="coffee-pastry"
             style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
            <h1 style="color:burlywood; font-size:70px;margin:0;padding:0">321</h1>
             <h3>Types of coffee</h3>
-            <p>We offer a wide range of coffee.</p>
+            <p style="font-size:15px";>We offer a wide range of coffee.</p>
         </div>
 
         <div id="coffee-to-go"
             style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
            <h1 style="color:burlywood; font-size:70px;margin:0;padding:0">220</h1>
             <h3>Types of coffee</h3>
-            <p>We offer a wide range of coffee.</p>
+            <p style="font-size:15";>We offer a wide range of coffee.</p>
         </div>
        
-</div>
+        </div>
+        <div id="sev1">
+         <div id="sev">
+        <h1 style="font-size: 50px;">Our Delicious Offer</h1>
+        <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
+        <p style="font-size: 26px;">We offer a wide range of coffee for all type of your moods(Happy,sad,angry)</p>
+    </div>
+
+    <div id="eig">
+        <div id="coffee-types"
+            style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <img src="product1.png">
+            <h1>Types of coffee</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+
+        <div id="bean-varities"
+            style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <img src="product2.png">
+            <h1>Bean Varities</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+        <div id="coffee-pastry"
+            style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <img src="product3.png">
+            <h1>Coffee & Pastry</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+
+        <div id="coffee-to-go"
+            style="display: flex;flex-direction: column; align-items: center; justify-content: center;">
+            <img src="product4.png">
+            <h1>Coffee To Go</h1>
+            <p>We offer a wide range of coffee.</p>
+        </div>
+    </div>
+ </div>
  <div id="eight">
         <h1 style="font-size: 50px;">Our Sweet Gallery</h1>
         <img src="https://corretto.qodeinteractive.com/wp-content/uploads/2018/04/title-separator.png">
